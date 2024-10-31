@@ -1,0 +1,32 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 75, 75);
+    font-size: 30px;
+    background-color: rgb(230, 230, 230);
+}
+main {
+    text-align: center;
+}
+footer {
+    font-size: 15PX;
+    text-align: center;
+}
+#nom {
+    font-size: 22px;
+}
+#prenom {
+    font-size: 22px;
+}
+#age {
+    font-size: 22px;
+}
+label {
+    font-size: 20px;
+}
+button {
+    font-size: 22px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-radius: 10px 10px 10px;
+    border-color: rgb(75, 75, 75);
+}

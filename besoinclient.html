@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul Age</title>
+    <link href="besoinclient.css" rel="stylesheet">
+    <script type="text/javascript" src="besoinclient.js" defer></script>
+    <script type="text/javascript" src="evenement.js" defer></script>
+    <script type="text/javascript" src="reglevalidation.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Jeu de calcul automatique de l'âge</h1>
+      <h2>L'application la plus fiable pour connaître votre âge</h2>
+      <h3>Vous serez heureux d'apprendre votre âge</h3>
+    </header>
+    <br><br>
+    <main>
+      <form>
+      <div class="personne">
+        <p>Veuillez saisir votre nom et votre prénom.</p>
+        <div class="identite">
+          <p>
+            <input type="text" name="prenom" placeholder="Prénom" id="prenom">
+           </p>
+           <p>
+            <input type="text" name="nom" placeholder="Nom" id="nom">
+           </p>
+        </div>
+      </div>
+      <div class="situation">
+        <input type="radio" name="situation" id="etudiant" value="etudiant"/>
+        <label>étudiant(e)</label>
+        <input type="radio" name="situation" id="salarié" value="salarié"/>
+        <label>salarié(e)</label>
+      </div>
+      <br>
+      <div class="anneeNaissance">
+        <input type="number" id="age" placeholder="Année de naissance">
+      </div>
+      <div class="messageAffiche">
+        <p><span id="messageSalutation"></span></p>
+        <p><span id="message"></span></p>
+      </div>
+      <div class="boutonValider">
+        <button id="bouton">Valider</button>
+      </div>
+      </form>
+    </main>
+  </body>
+  <br><br><br><br>
+  <footer>
+    <p> Le site est développé par Kyara LEMEUNIER dans le cadre de la formation Développeur Web et Web Mobile organisé par Ndovoo et <a href="https://www.cariforef-mayotte.yt" target="_blank">CARIF-OREF 976</a></p>
+    <p>Touts droits réservés 2024</p>
+  </footer>
+</html>
